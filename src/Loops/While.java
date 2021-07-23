@@ -1,3 +1,5 @@
+package Loops;
+
 public class While {
 
     public static void main(String[] args) {
@@ -9,6 +11,5 @@ public class While {
             System.out.println("Hello");
         }
         System.out.println("Hi");
-
     }
 }
