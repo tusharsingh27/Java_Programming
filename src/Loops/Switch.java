@@ -1,7 +1,8 @@
+package Loops;
+
 public class Switch {
     public static void main(String[] args) {
         // TODO Auto-generated method stub
-
 
         switch(1)
         {
@@ -16,6 +17,5 @@ public class Switch {
                 System.out.println("def");
         }
     }
-
 }
 
