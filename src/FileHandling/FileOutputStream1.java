@@ -3,8 +3,10 @@ package FileHandling;
 
     import java.io.FileOutputStream;
 
-public class FileOutputStream1 {
-        public static void main(String[] args) {
+public class FileOutputStream1
+{
+        public static void main(String[] args)
+        {
 
             String data = "This is a line of text inside the file.";
 
