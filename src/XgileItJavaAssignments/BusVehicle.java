@@ -1,4 +1,4 @@
-package JavaAssignments;
+package XgileItJavaAssignments;
 
 public class BusVehicle
     {

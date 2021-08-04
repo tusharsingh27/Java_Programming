@@ -1,4 +1,4 @@
-package JavaAssignments;
+package XgileItJavaAssignments;
 
 import java.time.LocalDate;
 import java.time.Period;

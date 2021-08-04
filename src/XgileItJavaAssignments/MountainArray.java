@@ -1,23 +1,19 @@
-package JavaAssignments;
+package XgileItJavaAssignments;
 
 import java.util.Scanner;
-
-public class MountainArray {
-
+public class MountainArray
+{
         public static void main(String[] args)
         {
-
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter length of list");
             int number = sc.nextInt();//Array Length
-
             int array[] = new int[number];
             System.out.println("Enter the " + number + " numbers");
             for (int j = 0; j <array.length; j++)  // Entering the values in the Array
             {
                 array[j] = sc.nextInt();
             }
-
             int  maximumValue = array[0]; //Setting first element as maximum value of array
             int  minimumValue = array[0]; //Setting first element as minimum value of array
 
@@ -37,7 +33,8 @@ public class MountainArray {
             int table=0;
             for(int k=0;k<array.length-1;k++)
             {
-                if(array[k]==array[k+1]) {
+                if(array[k]==array[k+1])
+                {
                     table++;
                 }
                 if(table>0)
