@@ -1,0 +1,26 @@
+health:
+  session: https://dev.abdm.gov.in/gateway/v0.5/sessions
+  clientId: SBX_000672
+  clientSecret: 6a87dad1-b91a-40d5-8391-b2630c532453
+  cert: https://healthidsbx.abdm.gov.in/api/v1/auth/cert
+  certLocation:
+  baseUrl: https://healthidsbx.abdm.gov.in/api/v2
+  #baseUrlv1: https://healthidsbx.abdm.gov.in/api/v1
+  consentManagerUrl: https://dev.abdm.gov.in/cm
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    #url: jdbc:mysql://localhost:3306/healthpulsemono
+    url: jdbc:mysql://healthpulsemysql.ciiotjl5i5ry.ap-south-1.rds.amazonaws.com:3306/healthpulsemono?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true
+    username: admin
+    password: Healthpulse22
+
+  # drop n create/update table, good for testing, comment this in production
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+aws:
+  accessKeyId: AKIA34OEGKHTBTIXR5RJ
+  secretKey: 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
